@@ -1,4 +1,4 @@
-package info.sdj.Triangle;
+package info.sdj.triangle;
 
 import info.sdj.AbstractShape;
 
@@ -36,13 +36,5 @@ public class Triangle extends AbstractShape {
 	public void setTriangleHight(double triangleHight) {
 		this.triangleHight = triangleHight;
 	}
-
-
-
-	/*void erase();
-	void draw();
-	void move();
-	void getColor();
-	void setColor();*/
 	
 }

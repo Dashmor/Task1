@@ -1,7 +1,7 @@
-package info.sdj.Circle;
+package info.sdj.circle;
 
-import info.sdj.AbstractShape;
 import java.lang.Math;
+import info.sdj.AbstractShape;
 
 public class Circle extends AbstractShape {
 	
@@ -20,8 +20,5 @@ public class Circle extends AbstractShape {
 	public void setRadius(int radius) {
 		this.radius = radius;
 	}
-
-
-
 	
 }

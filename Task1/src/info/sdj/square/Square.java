@@ -1,4 +1,4 @@
-package info.sdj.Square;
+package info.sdj.square;
 
 import info.sdj.AbstractShape;
 import java.lang.Math;

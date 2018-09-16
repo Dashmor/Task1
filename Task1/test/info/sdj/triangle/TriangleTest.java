@@ -11,9 +11,9 @@ class TriangleTest {
 		
 		Triangle triangle = new Triangle();
 		
+		assertNotNull(triangle.getArea());
 		triangle.setTriangleHight(1);
 		triangle.setTriangleSide(1);
-		assertNotNull(triangle.getArea());
 		assertEquals(0.5, triangle.getArea(), 0.1);
 	}
 

@@ -9,8 +9,8 @@ class CircleTest {
 	void testGetArea() {
 		Circle circle = new Circle();
 		
-		assertNotNull(circle.getArea());
 		circle.setRadius(2);
+		assertNotNull(circle.getArea());
 		assertEquals(12.56, circle.getArea(), 0.1);
 	}
 

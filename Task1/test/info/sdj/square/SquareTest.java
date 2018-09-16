@@ -11,8 +11,8 @@ class SquareTest {
 		
 		Square square = new Square();
 		
-		assertNotNull(square.getArea());
 		square.setSideLength(6.2);
+		assertNotNull(square.getArea());
 		assertEquals(38, square.getArea(), 0.5);
 		
 	}
